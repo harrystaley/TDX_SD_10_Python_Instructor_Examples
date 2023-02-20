@@ -25,5 +25,5 @@ def binary_search(list_items, target):
 
 if __name__ == "__main__":
     arr = [2, 3, 4, 10, 40]
-    x = 10
+    x = 40
     print(f"The index of {x} in {arr} is {'not in list' if binary_search(arr, x) == -1 else binary_search(arr, x)}.")

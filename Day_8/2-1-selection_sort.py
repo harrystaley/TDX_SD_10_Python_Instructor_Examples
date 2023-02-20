@@ -20,4 +20,4 @@ def selection_sort(list_items):
 if __name__ == "__main__":
     elements = [39, 12, 18, 85, 72, 10, 2, 18]
     print(f"Unsorted list:\n{elements}")
-    print(f"Sorted list:\n{bubble_sort(elements)}")
+    print(f"Sorted list:\n{selection_sort(elements)}")
